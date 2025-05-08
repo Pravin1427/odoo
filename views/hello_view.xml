@@ -24,7 +24,8 @@
                 <header>
                     <field name="state" widget="statusbar" nolabel="1"/>
                     <button name="action_confirm" type="object" string="Confirm"
-                            class="oe_highlight" invisible="state == 'confirmed'"/>
+                            class="oe_highlight" invisible="state == 'confirmed'"
+                            confirm="Are you sure you want to confirm this record?"/>
                 </header>
 
                 <sheet>
